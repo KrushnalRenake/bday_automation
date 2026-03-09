@@ -5,8 +5,8 @@ import smtplib
 
 ##################### Extra Hard Starting Project ######################
 
-EMAIL = "krushnal.renake9722@gmail.com"
-PASSWORD = "ewhelcvtlgyxiqiw"
+EMAIL = ""
+PASSWORD = ""
 
 # 1. Update the birthdays.csv
 
