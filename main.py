@@ -6,8 +6,8 @@ import smtplib
 
 ##################### Extra Hard Starting Project ######################
 
-EMAIL = ""
-PASSWORD = ""
+EMAIL = os.environ.get("EMAIL")
+PASSWORD = os.environ.get("PASSWORD")
 
 # 1. Update the birthdays.csv
 
