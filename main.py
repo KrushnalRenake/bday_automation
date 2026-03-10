@@ -31,7 +31,7 @@ for bday in bdays_dict:
             connection.sendmail(
                 from_addr= EMAIL,
                 to_addrs= bday["email"],
-                msg=new_content
+                msg=f"Subject:Happy Birthday !\n\n{new_content}"
             )
 
 
